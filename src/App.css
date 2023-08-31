@@ -1,38 +1,435 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=PT+Serif:wght@700&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=PT+Serif:wght@700&family=Source+Code+Pro:ital,wght@1,600&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=PT+Serif:wght@700&family=Pacifico&family=Source+Code+Pro:ital,wght@1,600&display=swap');
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@500&family=PT+Serif:wght@700&family=Satisfy&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@500&family=Kanit:wght@100&family=PT+Serif:wght@700&family=Satisfy&family=Signika:wght@300&family=Source+Code+Pro:ital,wght@1,600&family=Tektur&family=Ubuntu&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@500&family=PT+Serif:wght@700&family=Satisfy&family=Signika:wght@300&family=Source+Code+Pro:ital,wght@1,600&family=Tektur&family=Ubuntu&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=PT+Serif:wght@700&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@500&family=PT+Serif:wght@700&family=Satisfy&family=Signika:wght@300&family=Source+Code+Pro:ital,wght@1,600&family=Ubuntu&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@500&family=PT+Serif:wght@700&family=Satisfy&family=Source+Code+Pro:ital,wght@1,600&family=Ubuntu&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@500&family=PT+Serif:wght@700&family=Satisfy&family=Signika:wght@300&family=Source+Code+Pro:ital,wght@1,600&family=Tektur&family=Ubuntu&display=swap');
+
+  #main-div{
+
+  background-image: url("C:\Users\HP\Desktop\TM_Workshop\tm-workshop-form\src\img\1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3% 0;
+  background-position-y: 24%;
+
+}
+  .form-div-main{
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  text-align: center;
+  
+}
+.form-div{
+  width: 31%;
+}
+#form-heading h4{
+  font-size: 200%;
+}
+#form-heading{
+  color: rgb(207, 206, 206);
+  width: 97%;
+  height: 7vh;
+  border-bottom: 1px solid rgb(207, 206, 206);
+  font-family: 'PT Serif', serif;
+
+  
+  
+}
+.course-inter{
+ display: none;
+}
+
+#form{
+  background-color:  transparent;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  margin: 0% auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 3% 0; 
+
+  background-image: url("C:\Users\HP\Desktop\TM_Workshop\tm-workshop-form\src\img\14.jpg"); 
+
+
+}
+#form input::placeholder{
   color: white;
 }
+#form #terms-condition-field{
+  width: 94%;
+display: flex;
+margin: auto;
+color: white;
+justify-content: center;
+}
+#form #terms-condition-field input[type="checkbox"]{
+  width: 30%;
+  vertical-align: middle;
+  margin-left: 86%;
+  margin-top: 20%;
 
-.App-link {
-  color: #61dafb;
+}
+#form #terms-condition-field  #checkbox-span{
+width: 8%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#form #terms-condition-field  #terms-span{
+  margin-top: 2%;
+}
+
+#form input, select{
+  margin: 1.3%;
+  width: 80%;
+  background-color: transparent;
+  height: 4vh;
+  padding-left: 3%;
+  border: none;
+  border-bottom: 1px solid rgb(146, 141, 141);
+  color: white;
+
+}
+#form select{
+
+    margin: 2% auto;
+    
+}
+
+#check-input{
+  margin-top: 0%;
+  width: 40%;
+  margin-left: 13%;
+color: white;
+  text-align: left;
+}
+
+ .heading{
+  text-align: left;
+  float: inline-start;
+  margin-left: 13%;
+  margin-top: 3%;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+#form input[type="checkbox"]{
+  width: 7%;
+  margin: 1%;
+  margin-right: 3%;
+  background-color: blue;
+  vertical-align: middle;
+display: inline-block
+ 
+}
+#form select option{
+  background-color: transparent;
+  color:black;
+  font-size: 90%;
+}
+
+
+#nabbar-div{
+ 
+  position: sticky ;
+  top: 0;
+}
+#nabbar-div #navbar{
+  background-color: rgb(0, 0, 0); 
+  box-shadow: 0px -10px 50px 0px rgb(245, 242, 242);
+  padding: auto;
+  height: 8vh;
+
+}
+#nabbar-div #tmlogo{
+width: 27%;
+}
+
+/*----------------------------------------------------- heading-div--------------------------------- */
+.heading-div #workshop-name{
+  width: 97%;
+  padding-top: 5%;
+  padding-left: 5%;
+  margin: auto;
+
+}
+
+.heading-div #workshop-name h2{
+  margin-top: 2%;
+  color: rgb(215, 231, 211);
+font-size: 170%;
+text-align: left;
+font-family: 'Tektur', cursive;
+letter-spacing: 1.3px;
+
+
+
+}
+ #registerd-now h3{
+  color: rgb(209, 209, 11);
+  text-align: left;
+  text-shadow: 1.5px 1.5px 1.5px rgb(134, 19, 19);
+  margin-left: 7%;
+  font-size: 120%;
+  margin-top: 3%;
+  height: 20%;
+  margin-left:50%;
+
+   
+font-family: 'Tektur', cursive;
+}
+
+/*----------------------------------------------------- heading-div end--------------------------------- */
+
+#form input[type="submit"]{
+  width: 20%;
+  border-radius: 10px;
+  background-color: blue;
+  border: none;
+  margin-top: 6%;
+}
+#form input[type="submit"]:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: green
+}
+
+#footer{
+  width: 100vw;
+  height: 15vh;
+  background-color: black;
+  color: white;
+  padding: 3%;
+  box-sizing: border-box;
+  padding-bottom: 6%;
+}
+.footer-address{
+  width: 90%;
+  margin-bottom: 3%;
+}
+.heading-div{
+  background-color:rgba(31,31,31,255);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  width: 41.999%;
+  height: 22%;
+  border-radius: 0px;
+  background-image: url(C:\Users\HP\Desktop\TM_Workshop\tm-workshop-form\src\img\15.jpg);
+  background-size: cover;
+  background-size: 150%;
+  background-position-x: 25%;
+  margin-left: 2.2%;
+   
+font-family: 'Tektur', cursive;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+
+}
+
+#benifit-div ul{
+  margin-top: 4.5%;
+  list-style-type: square;
+}
+
+#benifit-div{
+  background-color: yellow;
+  
+  width: 42.3%;
+  color: rgb(215, 231, 211);
+ font-family: 'Tektur', cursive;
+ box-shadow: rgba(241, 236, 236, 0.1) 0px 1px 1px 0px inset, rgba(155, 155, 170, 0.25) 0px 50px 100px -20px, rgba(201, 190, 190, 0.3) 0px 30px 60px -30px;
+ padding-top: 1.5%;
+ letter-spacing: 1.3px;
+ padding-left: 3%;
+  font-size: 180%;
+  padding-bottom: 01%;
+  box-sizing: border-box;
+  height: 47vh;
+  margin-top: -34%;
+  margin-left: 8.5%;
+  border-radius: 0px;
+  background-image: url("C:\Users\HP\Desktop\TM_Workshop\tm-workshop-form\src\img\15.jpg");
+  background-size: cover;
+  background-position-x: 39% ;
+}
+
+#benifit-heading{
+  font-size: 160%;
+  text-shadow: 1.5px 1.5px 1.5px rgb(134, 19, 19);
+    text-decoration: underline;
+  color: rgb(209, 209, 11);
+}
+#footer .footer-address a h3{
+  width: fit-content;
+}
+#footer .footer-address a h3 :hover{
+color: blue;
+}
+/* ----------------------------------------------------media query---------------------------- */
+
+@media only screen and (max-width:990px){
+  #form{
+    border-radius: 0;
   }
-  to {
-    transform: rotate(360deg);
+ 
+  #main-div{
+    background-image: url("C:\Users\HP\Desktop\TM_Workshop\tm-workshop-form\src\img\8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+  .form-div-main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .form-div{
+    width: 100%;
+    border-radius: 0;
+
+  }
+  .heading-div{
+    background-color:rgba(31,31,31,255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    width: 101.5%;
+    height: 17vh;
+    margin: -2% ;
+    margin-top: -10.7%;
+    padding: 0.5%;
+    padding-left: 1.2%;
+    border-radius: 0px;
+    background-image: url("C:\Users\HP\Desktop\TM_Workshop\tm-workshop-form\src\img\15.jpg");
+    background-size: cover;
+  
+  }
+  .heading-div #workshop-name{
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 5%;
+    margin: auto
+  }
+  
+  .heading-div #workshop-name h2{
+    margin-top: 1%;
+    color: rgb(228, 215, 215);
+  font-size: 100%;
+  text-align: left;
+  }
+  .heading-div #registerd-now h3{
+   color: rgb(240, 240, 136);
+    text-align: left;
+    text-shadow: 1.5px 1.5px 1.5px rgb(134, 19, 19);
+    margin-left: 9%;
+  font-size: 150%;
+  margin-top: 3%;
+   font-family: 'Acme', sans-serif;
+  }
+  #form input, select{
+    margin:3% .5% 0% 1.2%;
+    width: 97%;
+    background-color: transparent;
+    height: 4vh;
+    padding-left: 3%;
+    border: none;
+    border-bottom: 1px solid rgb(146, 141, 141);
+    color: white;
+  
+  }
+  #form input[type="checkbox"]{
+    width: 5%;
+    vertical-align: middle;
+  }
+  #check-input{
+    margin-top: 0%;
+    width: 90%;
+    margin-left: 13%;
+  color: white;
+    text-align: left;
+  }
+  #terms-condition-field{
+    margin-top: 7%;
+  }
+  #terms-condition-field #checkbox-span input[type="checkbox"]{
+    width: 15px
+  }
+  #nabbar-div #navbar #tmlogo{
+    width: 50vw;
+    margin-left: 40%;
+  
+  }
+  #form select option{
+    background-color: transparent;
+    color:black;
+    font-size: 70%;
+    max-width: 100%;
+    text-overflow: ellipsis;
+  }
+  
+#benifit-div{
+  background-color: yellow;
+  width: 100%;
+ 
+  height: 25vh;
+  margin-top: -4%;
+  margin-left: 0%;
+  border-radius: 0px;
+  margin-bottom: -20px;
+}
+#benifit-heading{
+  font-size: 160%;
+  text-shadow: 1.5px 1.5px 1.5px rgb(134, 19, 19);
+    text-decoration: underline;
+  color: rgb(209, 209, 11);
+}
+#benifit-div{
+  background-color: yellow;
+  width: 100%;
+  color: rgb(215, 231, 211);
+ font-family: 'Tektur', cursive;
+ box-shadow: rgba(241, 236, 236, 0.1) 0px 1px 1px 0px inset, rgba(155, 155, 170, 0.25) 0px 50px 100px -20px, rgba(201, 190, 190, 0.3) 0px 30px 60px -30px;
+ padding-top:12%;
+
+ letter-spacing: 1.3px;
+ padding-left: 3%;
+  font-size: 180%;
+  padding-bottom: 01%;
+  box-sizing: border-box;
+
+  height: fit-content;
+  margin-top: -9%;
+  border-radius: 0px;
+  background-image: url("C:\Users\HP\Desktop\TM_Workshop\tm-workshop-form\src\img\15.jpg");
+  background-size: cover;
+  background-position-x: 39% ;
+}
+#footer{
+  width: 100vw;
+  height: fit-content;
+  padding: 7% 0 4% 0;
+  background-color: black;
+  color: white;
+  padding: 3%;
+  box-sizing: border-box;
+
+}
+.footer-address{
+  width: 100%;
+
+}
 }
